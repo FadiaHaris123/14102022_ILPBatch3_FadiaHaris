@@ -1,0 +1,25 @@
+package com.ilpexperion.service;
+
+import com.ilpexperion.entity.Card;
+
+public class Service {
+
+	
+	public static Card createCardProduct() {
+
+		Card card = new Card("MC100","Master Card","Cards","Master");
+		return card;
+	}
+
+	public static void createAccountProduct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public static void buyProduct() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

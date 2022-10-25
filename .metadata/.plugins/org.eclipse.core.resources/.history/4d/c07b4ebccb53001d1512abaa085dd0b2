@@ -1,0 +1,11 @@
+package com.assignment_basic_programming;
+
+public class DifferenceofDates {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Program to enter two dates and print the difference between the two.
+
+	}
+
+}

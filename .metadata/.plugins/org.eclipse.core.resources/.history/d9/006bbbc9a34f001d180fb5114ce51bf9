@@ -1,0 +1,9 @@
+package com.ilpexperion.entity;
+
+public class Card extends Product {
+
+	private String cardNumber;
+	private double cardBalance;
+	
+	
+}

@@ -1,0 +1,7 @@
+package com.ilpexperion.services;
+
+public interface LoanAccountServices {
+
+	public abstract void checkDeposit();
+	public abstract void cashDeposit();
+}

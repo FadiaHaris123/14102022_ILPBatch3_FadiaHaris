@@ -1,0 +1,8 @@
+package com.ilpexperion.entity;
+
+public interface LoanServices {
+
+	public abstract void checkDueDate();
+	
+	
+}

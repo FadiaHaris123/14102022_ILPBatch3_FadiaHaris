@@ -1,0 +1,5 @@
+package com.ilpexperion.entity;
+
+public class Account {
+
+}

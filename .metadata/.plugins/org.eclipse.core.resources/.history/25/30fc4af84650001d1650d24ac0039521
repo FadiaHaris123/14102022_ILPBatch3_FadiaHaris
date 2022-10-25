@@ -1,0 +1,11 @@
+package com.ilpexperion.entity;
+
+public class CurrentAccount extends Account {
+
+	public CurrentAccount(String accountType, int balance) {
+		super(accountType, balance);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+}

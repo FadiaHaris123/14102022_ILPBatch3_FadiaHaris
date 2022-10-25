@@ -1,0 +1,15 @@
+package com.ilpexperion.services;
+
+import java.util.ArrayList;
+
+import com.ilpexperion.entity.Customer;
+
+public class Services {
+
+	public static Customer checkCustomerId(ArrayList<Customer> customerList,String customerId) {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+}

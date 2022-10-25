@@ -1,0 +1,34 @@
+package com.experion.utility;
+
+import java.util.Scanner;
+
+import com.experion.entity.Product;
+import com.experion.service.Service;
+
+public class ProductUtility {
+
+	public static void main(String[] args) {
+
+		String mainChoice;
+		int index = 0;
+		Scanner scanner = new Scanner(System.in);
+		Product productList[] = new Product[3];
+		do {
+			System.out.println("1. Add Product 2. Display Product");
+			int choice = scanner.nextInt();
+			switch (choice) {
+			case 1:
+				productList[index] = Service.createProduct();
+				index++;
+				break;
+			case 2:
+				Service.displayProductDetails(productList);
+				break;
+			}
+			System.out.println("Do you want to continue : yes/no");
+			scanner.nextLine();
+			mainChoice = scanner.nextLine();
+		} while (mainChoice.equalsIgnoreCase("yes"));
+	}
+
+}

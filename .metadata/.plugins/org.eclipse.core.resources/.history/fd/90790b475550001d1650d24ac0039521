@@ -1,0 +1,25 @@
+package com.bank.service;
+
+import java.util.ArrayList;
+
+import com.bank.entity.BankService;
+import com.bank.entity.Product;
+
+public class Service {
+	
+	public static ArrayList<BankService> createBankServices() {
+		
+		ArrayList<BankService> serviceList = new ArrayList<BankService>();
+		
+		serviceList.add(new BankService("SCD100","Cash Deposit"));
+		serviceList.add(new BankService("ATMW200","ATM Withdrawal"));
+		
+		return serviceList;
+	}
+
+	public static ArrayList<Product> createProduct(ArrayList<BankService> serviceList) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

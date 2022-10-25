@@ -1,0 +1,34 @@
+package com.ilpexperion.entity;
+
+public class Account extends Product {
+	
+	private String accountType;
+	private BankServices bankServices;
+	
+	public Account(String productCode, String productName, String productType, String accountType,
+			BankServices bankServices) {
+		super(productCode, productName, productType);
+		this.accountType = accountType;
+		this.bankServices = bankServices;
+	}
+
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+	public BankServices getBankServices() {
+		return bankServices;
+	}
+
+	public void setBankServices(BankServices bankServices) {
+		this.bankServices = bankServices;
+	}
+
+	
+	
+	
+	}

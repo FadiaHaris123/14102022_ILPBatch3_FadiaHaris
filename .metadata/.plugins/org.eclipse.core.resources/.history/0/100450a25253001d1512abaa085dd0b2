@@ -1,0 +1,15 @@
+package com.assignment_basic_programming;
+
+public class fact {
+
+	public static void main(String[] args) {
+		int number;
+	public int findFactorial(int number) {
+		if (number == 0)
+			return 1;
+
+		return n * findFactorial(n - 1);
+
+	}
+
+}

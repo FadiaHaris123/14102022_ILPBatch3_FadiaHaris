@@ -1,0 +1,14 @@
+package com.ilpexperion.basicprogramming;
+
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+
+public class DateDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		java.util.Date date=new java.util.Date();  
+		System.out.println(date);  
+	}
+
+}

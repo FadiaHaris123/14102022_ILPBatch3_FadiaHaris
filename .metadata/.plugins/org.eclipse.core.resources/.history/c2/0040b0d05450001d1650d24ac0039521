@@ -1,0 +1,16 @@
+package com.bank.service;
+
+import java.util.ArrayList;
+
+import com.bank.entity.BankService;
+
+public class Service {
+	
+	private static ArrayList<BankService> createBankServices() {
+		
+		ArrayList<BankService> serviceList = new ArrayList<BankService>();
+		
+		return null;
+	}
+
+}

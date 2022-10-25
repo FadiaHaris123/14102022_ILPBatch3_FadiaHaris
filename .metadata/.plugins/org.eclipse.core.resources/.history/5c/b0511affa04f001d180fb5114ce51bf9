@@ -1,0 +1,11 @@
+package com.ilpexperion.service;
+
+import java.util.ArrayList;
+
+import com.ilpexperion.entity.Account;
+
+
+public class Service {
+
+	
+}

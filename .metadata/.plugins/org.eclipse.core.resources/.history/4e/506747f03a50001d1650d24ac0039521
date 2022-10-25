@@ -1,0 +1,35 @@
+package com.ilpexperion.utility;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.ilpexperion.entity.Customer;
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Customer> customerList = new ArrayList<Customer>();
+		int mainChoice;
+		char choice;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		do {
+			System.out.println("*****************Welcome To Bank*****************");
+			System.out.println("1.Create Accounts\r\n"
+					+ "\r\n"
+					+ "2.Manage Accounts\r\n"
+					+ "\r\n"
+					+ "3.Exit");
+			System.out.println("Enter your choice :");
+			mainChoice = scanner.nextInt();
+			switch(mainChoice) {
+			
+			}
+			System.out.println("Do you want to continue(Y/N):");
+			choice=scanner.next().charAt(0);
+		}while(choice=='y');
+
+}
+}

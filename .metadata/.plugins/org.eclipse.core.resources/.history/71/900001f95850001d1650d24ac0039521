@@ -1,0 +1,39 @@
+package com.bank.service;
+
+import java.util.ArrayList;
+
+import com.bank.entity.BankService;
+import com.bank.entity.Product;
+
+public class Service {
+
+	public static ArrayList<BankService> createBankServices() {
+
+		ArrayList<BankService> serviceList = new ArrayList<BankService>();
+
+//		serviceList.add(new BankService("SCD100", "Cash Deposit"));
+//		serviceList.add(new BankService("ATMW200", "ATM Withdrawal"));
+//		serviceList.add(new BankService("SOB300", "Online Banking"));
+//		serviceList.add(new BankService("SMB400", "Mobile Banking"));
+//		serviceList.add(new BankService("SCHQD500", "Cheque Deposit"));
+
+		return serviceList;
+	}
+
+	public static ArrayList<Product> createProduct(ArrayList<BankService> serviceList) {
+		
+		ArrayList<BankService> savingsMaxAccountServiceMapping = new ArrayList<BankService>();
+		ArrayList<BankService> currentAccountServiceMapping = new ArrayList<BankService>();
+		ArrayList<BankService> loanAccountServiceMapping = new ArrayList<BankService>();
+		for(BankService bankService : serviceList)
+			if((bankService.getServiceCode().compareTo("SCD100") == 0)||(bankService.getServiceCode().compareTo("ATMW200") == 0)||(bankService.getServiceCode().compareTo("SOB300") == 0))
+				savingsMaxAccountServiceMapping.add(bankService);
+			
+		ArrayList<Product> productList = new ArrayList<Product>();
+		productList.add(new Product("SMA100","Savings Max Account",savingsMaxAccountServiceMapping));
+		
+		
+		
+		return productList;
+	}
+}

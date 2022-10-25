@@ -1,0 +1,39 @@
+package com.assignment_basic_programming;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class DuplicateCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a string: ");
+		String stringInput = scanner.nextLine();
+		int count;
+		ArrayList<Character> list = new ArrayList<Character>();
+
+		// Converts given string into character array
+		char string[] = stringInput.toCharArray();
+
+		System.out.println("Duplicate characters in a given string: ");
+		// Counts each character present in the string
+		for (int i = 0; i < string.length; i++) {
+			count = 1;
+			for (int j = i + 1; j < string.length; j++) {
+				if (string[i] == string[j] && string[i] != ' ') {
+					count++;
+					// Set string[j] to 0 to avoid printing visited character
+					string[j] = '0';
+				}
+			}
+			// A character is considered as duplicate if count is greater than 1
+			if (count > 1 && string[i] != '0')
+				list.add(string[i]);
+		}
+		for(Character ch : list)
+			System.out.print(ch);
+
+	}
+
+}

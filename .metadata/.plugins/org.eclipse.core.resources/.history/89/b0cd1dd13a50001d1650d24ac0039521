@@ -1,0 +1,26 @@
+package com.ilpexperion.utility;
+
+import java.util.ArrayList;
+
+import com.ilpexperion.entity.Customer;
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Customer> customerList = new ArrayList<Customer>();
+		int mainChoice;
+		do {
+			System.out.println("*****************Welcome To Bank*****************");
+			System.out.println("1.Create Accounts\n"
+					+ "\r\n"
+					+ "2.Manage Accounts\r\n"
+					+ "\r\n"
+					+ "3.Exit");
+			
+		
+
+		}while()
+
+}
+}

@@ -1,0 +1,36 @@
+package com.ilpexperion.services;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.ilpexperion.entity.Account;
+import com.ilpexperion.entity.Customer;
+
+public class Services {
+
+	public static boolean checkCustomerId(ArrayList<Customer> customerList,String customerId){
+		
+		for(Customer customer:customerList) {
+			if((customer.getCustomerId()).compareTo(customerId)==0) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	public static Customer createAccount(int customerChoice) {
+		// TODO Auto-generated method stub
+		if(customerChoice==1) {
+			Account account = new Account("Savings Max Account",0);
+			Scanner scanner =new Scanner(System.in);
+			System.out.println("Enter the Customer Code:");
+			String customerId = scanner.nextLine();
+			System.out.println("Enter Customer Name: ");
+			String customerName = scanner.nextLine();
+			
+			Customer customer = new Customer("Savings Max Account",0,customerId,customerName,account);
+			return customer;
+		}
+		
+	}
+}

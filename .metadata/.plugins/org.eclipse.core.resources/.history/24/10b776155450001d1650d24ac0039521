@@ -1,0 +1,19 @@
+package com.bank.entity;
+
+import java.util.ArrayList;
+
+public class Product {
+	
+	private String productCode;
+	private String productName;
+	private ArrayList<BankService> serviceList;
+	public Product(String productCode, String productName, ArrayList<BankService> serviceList) {
+		
+		this.productCode = productCode;
+		this.productName = productName;
+		this.serviceList = serviceList;
+	}
+	
+	
+
+}

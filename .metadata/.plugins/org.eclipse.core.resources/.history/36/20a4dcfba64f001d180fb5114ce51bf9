@@ -1,0 +1,18 @@
+package com.ilpexperion.utility;
+
+
+import com.ilpexperion.entity.Account;
+import com.ilpexperion.service.AccountService;
+
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		
+		Account account = new Account("Savings Account","Acc1001",10000);
+		AccountService accountService = new AccountService();
+		accountService.depositCash(account,10000);
+		accountService.depositCash(account,0,"asdfghjkl");
+		accountService.depositCash(account,"sdfghj",0);
+}
+}

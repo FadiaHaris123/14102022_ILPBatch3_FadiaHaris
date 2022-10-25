@@ -1,0 +1,22 @@
+package com.ilpexperion.entity;
+
+public class Customer extends Account {
+
+
+	private String customerId;
+	private String customerName;
+	private Account account;
+	
+	public Customer(String accountType, int balance, String customerId, String customerName, Account account) {
+		super(accountType, balance);
+		this.customerId = customerId;
+		this.customerName = customerName;
+		this.account = account;
+	}
+	
+	
+	
+	
+	
+	
+}

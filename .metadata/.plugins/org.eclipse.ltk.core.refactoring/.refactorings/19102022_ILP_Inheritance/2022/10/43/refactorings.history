@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ilpexperion.utility.ProductUtility&apos; to &apos;BankUtility&apos;&#x0D;&#x0A;- Original project: &apos;19102022_ILP_Inheritance&apos;&#x0D;&#x0A;- Original element: &apos;com.ilpexperion.utility.ProductUtility&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ilpexperion.utility.BankUtility&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ProductUtility&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ilpexperion.utility{ProductUtility.java[ProductUtility" matchStrategy="1" name="BankUtility" qualified="false" references="true" similarDeclarations="false" stamp="1666152813754" textual="false" version="1.0"/>
+</session>
