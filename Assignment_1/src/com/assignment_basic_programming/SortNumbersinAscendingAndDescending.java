@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class SortNumbersinAscendingAndDescending {
 
-	//Program to sort an array in ascending and descending order. 
+	// 12.Program to sort an array in ascending and descending order. 
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);

@@ -6,7 +6,7 @@ public class PrintSumOfSeries4 {
 
 	public static void main(String[] args) {
 
-//		Calculate the sum of the series 1/1! +2/2!+3/3!+.............+n! 
+//		6.Calculate the sum of the series 1/1! +2/2!+3/3!+.............+n! 
 		System.out.println("Enter the limit of the series :- 1/1! +2/2!+3/3!+.............+n/n! ");
 		Scanner scanner = new Scanner(System.in);
 		int numberLimit = scanner.nextInt();

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Arrange4NumbersinAscendingAndDescending {
 
+	//2. Program to arrange four numbers in ascending and descending order 
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);

@@ -6,7 +6,7 @@ public class PrintSumOfSeries3 {
 
 	public static void main(String[] args) {
 
-//		Calculate the sum of the series 1^1-3^2+5^3-7^4+.............+n^k
+//		5. Calculate the sum of the series 1^1-3^2+5^3-7^4+.............+n^k
 		System.out.println("Enter the limit of the series :- 1^1-3^2+5^3-7^4+.............+n^k ");
 		Scanner scanner = new Scanner(System.in);
 		int numberLimit = scanner.nextInt();

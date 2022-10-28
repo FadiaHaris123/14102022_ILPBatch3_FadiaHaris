@@ -6,7 +6,7 @@ public class PrintSumOfSeries1 {
 
 	public static void main(String[] args) {
 
-//		Calculate the sum of the series 1-3+5-7+.............+n 
+//		3. Calculate the sum of the series 1-3+5-7+.............+n 
 		System.out.println("Enter the limit from the series :- 1-3+5-7+.............+n ");
 		Scanner scanner = new Scanner(System.in);
 		int numberLimit = scanner.nextInt();

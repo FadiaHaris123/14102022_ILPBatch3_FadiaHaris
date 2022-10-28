@@ -1,8 +1,0 @@
-package com.ilpexperion.services;
-
-public interface SavingsMax_CurrentAccountServices {
-
-	public abstract void cashDeposit();
-	public abstract void atmWithdrawal();
-	public abstract void OnlineBanking();
-}

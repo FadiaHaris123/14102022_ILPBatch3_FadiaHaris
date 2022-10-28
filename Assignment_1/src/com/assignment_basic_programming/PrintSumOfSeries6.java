@@ -6,7 +6,7 @@ public class PrintSumOfSeries6 {
 
 	public static void main(String[] args) {
 
-//		Calculate the sum of the series 1/(1^1+1!)+2/(4^2+2!) +3/(9^3+3!)+............ 
+//		8. Calculate the sum of the series 1/(1^1+1!)+2/(4^2+2!) +3/(9^3+3!)+............ 
 		System.out.println("Enter the limit of the series :- 1/(1^1+1!)+2/(4^2+2!) +3/(9^3+3!)+............ ");
 		Scanner scanner = new Scanner(System.in);
 		int numberLimit = scanner.nextInt();

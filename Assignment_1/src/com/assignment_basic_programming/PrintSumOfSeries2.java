@@ -6,7 +6,7 @@ public class PrintSumOfSeries2 {
 
 	public static void main(String[] args) {
 
-//		Calculate the sum of the series 1^3+2^3+3^3+5^3+8^3+....................+n^3 
+//		4. Calculate the sum of the series 1^3+2^3+3^3+5^3+8^3+....................+n^3 
 		System.out.println("Enter the limit of the series :- 1^3+2^3+3^3+5^3+8^3+....................+n^3 ");
 		Scanner scanner = new Scanner(System.in);
 		int numberLimit = scanner.nextInt();

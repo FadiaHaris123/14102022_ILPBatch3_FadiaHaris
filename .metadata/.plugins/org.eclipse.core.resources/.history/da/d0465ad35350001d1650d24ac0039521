@@ -1,8 +1,0 @@
-package com.bank.entity;
-
-public class BankService {
-	
-	private String serviceCode;
-	private String serviceName;
-
-}

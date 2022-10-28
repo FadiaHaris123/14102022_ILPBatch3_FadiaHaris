@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PrintSeries2 {
 	
-//	Write a program to print the following patterns 
+//10.	Write a program to print the following patterns 
 //
 //	1 
 //

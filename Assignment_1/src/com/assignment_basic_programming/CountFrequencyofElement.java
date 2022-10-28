@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class CountFrequencyofElement {
 
-	// Program to count the frequency of an element of an array.
+	//11. Program to count the frequency of an element of an array.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
